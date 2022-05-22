@@ -29,4 +29,10 @@ strong {
 .intro-chunk {
   margin-top: 64px;
   margin-bottom: 48px;
+  max-width: 35%;
+}
+
+.card {
+  border-top: solid hsl(0, 0%, 40%) 5px;
+  background-color: hsl(0deg, 0%, 60%);
 }
