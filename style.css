@@ -9,4 +9,24 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 32px;
+}
+
+.max-width-wrapper {
+  max-width: 70%;
+  margin: auto;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk {
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
