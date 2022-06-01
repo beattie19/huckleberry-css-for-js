@@ -5,7 +5,7 @@
 
 html,
 body {
-  margin: 0;
+  margin: 100px;
   padding: 0;
 }
 
@@ -13,13 +13,17 @@ header {
   width: 100%;
 }
 
+section {
+  margin: 32px 0;
+}
+
 h1 {
   margin-bottom: 32px;
 }
 
 .max-width-wrapper {
-  max-width: 100%;
-  margin: auto;
+  margin-left: -100px;
+  margin-right: -100px;
 }
 
 strong {
@@ -35,16 +39,17 @@ strong {
 header {
   max-width: 70%;
 }
+
 section {
   max-width: 70%;
   border-top: solid hsl(0, 0%, 40%) 5px;
   background-color: hsl(0deg, 0%, 60%);
+  padding: 48px 0;
 }
 
 .card {
   background-color: white;
   border-bottom: solid hsl(0, 0%, 40%) 5px;
-  margin: 48px 0px;
   padding-top: 8px;
   max-width: 70%;
 }
@@ -52,7 +57,7 @@ section {
 .indented-heading {
   width: max-content;
   padding: 16px;
-  margin-left: -16px;
+  margin: 0px 8px 8px -16px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: solid hsl(45deg, 100%, 40%) 8px;
 }
